@@ -1,0 +1,16 @@
+PODS:
+  - NetworkTransaction (0.0.8)
+
+DEPENDENCIES:
+  - NetworkTransaction
+
+SPEC REPOS:
+  trunk:
+    - NetworkTransaction
+
+SPEC CHECKSUMS:
+  NetworkTransaction: c94549df42c90d46e57c027f7023062de193da5c
+
+PODFILE CHECKSUM: 157d9638e6a794d12cd71453c70c0e829583c9d0
+
+COCOAPODS: 1.8.4

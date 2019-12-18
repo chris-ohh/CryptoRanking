@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04500A7B23A3E96D006340FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7A23A3E96D006340FF /* AppDelegate.swift */; };
+		04500A7D23A3E96D006340FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7C23A3E96D006340FF /* SceneDelegate.swift */; };
+		04500A7F23A3E96D006340FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7E23A3E96D006340FF /* ViewController.swift */; };
+		04500A8223A3E96D006340FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04500A8023A3E96D006340FF /* Main.storyboard */; };
+		04500A8423A3E96E006340FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04500A8323A3E96E006340FF /* Assets.xcassets */; };
+		04500A8723A3E96E006340FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04500A8523A3E96E006340FF /* LaunchScreen.storyboard */; };
+		9C22951E41D99F890DB8EE39 /* Pods_CryptoRanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60B5023767378CFB271CD0 /* Pods_CryptoRanking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04500A7723A3E96D006340FF /* CryptoRanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoRanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04500A7A23A3E96D006340FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04500A7C23A3E96D006340FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04500A7E23A3E96D006340FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04500A8123A3E96D006340FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04500A8323A3E96E006340FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04500A8623A3E96E006340FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04500A8823A3E96E006340FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D09EBC4E2C50BC11EBCB9C /* Pods-CryptoRanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoRanking.release.xcconfig"; path = "Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking.release.xcconfig"; sourceTree = "<group>"; };
+		3B60B5023767378CFB271CD0 /* Pods_CryptoRanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoRanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CE5ED4ECE89AAE1DDCC60C /* Pods-CryptoRanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoRanking.debug.xcconfig"; path = "Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04500A7423A3E96D006340FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C22951E41D99F890DB8EE39 /* Pods_CryptoRanking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04500A6E23A3E96D006340FF = {
+			isa = PBXGroup;
+			children = (
+				04500A7923A3E96D006340FF /* CryptoRanking */,
+				04500A7823A3E96D006340FF /* Products */,
+				E6129EBFA2C5AB404752DF95 /* Pods */,
+				BEDB0BC52515B163F104E9DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04500A7823A3E96D006340FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04500A7723A3E96D006340FF /* CryptoRanking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04500A7923A3E96D006340FF /* CryptoRanking */ = {
+			isa = PBXGroup;
+			children = (
+				04500A7A23A3E96D006340FF /* AppDelegate.swift */,
+				04500A7C23A3E96D006340FF /* SceneDelegate.swift */,
+				04500A7E23A3E96D006340FF /* ViewController.swift */,
+				04500A8023A3E96D006340FF /* Main.storyboard */,
+				04500A8323A3E96E006340FF /* Assets.xcassets */,
+				04500A8523A3E96E006340FF /* LaunchScreen.storyboard */,
+				04500A8823A3E96E006340FF /* Info.plist */,
+			);
+			path = CryptoRanking;
+			sourceTree = "<group>";
+		};
+		BEDB0BC52515B163F104E9DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B60B5023767378CFB271CD0 /* Pods_CryptoRanking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6129EBFA2C5AB404752DF95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67CE5ED4ECE89AAE1DDCC60C /* Pods-CryptoRanking.debug.xcconfig */,
+				04D09EBC4E2C50BC11EBCB9C /* Pods-CryptoRanking.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04500A7623A3E96D006340FF /* CryptoRanking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04500A8B23A3E96E006340FF /* Build configuration list for PBXNativeTarget "CryptoRanking" */;
+			buildPhases = (
+				E0D5B977C4EA3BA46FC0D70E /* [CP] Check Pods Manifest.lock */,
+				04500A7323A3E96D006340FF /* Sources */,
+				04500A7423A3E96D006340FF /* Frameworks */,
+				04500A7523A3E96D006340FF /* Resources */,
+				9378D8D13ACE07E4EAEBA5D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoRanking;
+			productName = CryptoRanking;
+			productReference = 04500A7723A3E96D006340FF /* CryptoRanking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04500A6F23A3E96D006340FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = PaulRenfrew;
+				TargetAttributes = {
+					04500A7623A3E96D006340FF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 04500A7223A3E96D006340FF /* Build configuration list for PBXProject "CryptoRanking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04500A6E23A3E96D006340FF;
+			productRefGroup = 04500A7823A3E96D006340FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04500A7623A3E96D006340FF /* CryptoRanking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04500A7523A3E96D006340FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04500A8723A3E96E006340FF /* LaunchScreen.storyboard in Resources */,
+				04500A8423A3E96E006340FF /* Assets.xcassets in Resources */,
+				04500A8223A3E96D006340FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9378D8D13ACE07E4EAEBA5D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D5B977C4EA3BA46FC0D70E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoRanking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04500A7323A3E96D006340FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04500A7F23A3E96D006340FF /* ViewController.swift in Sources */,
+				04500A7B23A3E96D006340FF /* AppDelegate.swift in Sources */,
+				04500A7D23A3E96D006340FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04500A8023A3E96D006340FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04500A8123A3E96D006340FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04500A8523A3E96E006340FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04500A8623A3E96E006340FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04500A8923A3E96E006340FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04500A8A23A3E96E006340FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04500A8C23A3E96E006340FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CE5ED4ECE89AAE1DDCC60C /* Pods-CryptoRanking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86S9QXK86N;
+				INFOPLIST_FILE = CryptoRanking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renfrew.project.CryptoRanking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04500A8D23A3E96E006340FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D09EBC4E2C50BC11EBCB9C /* Pods-CryptoRanking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86S9QXK86N;
+				INFOPLIST_FILE = CryptoRanking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renfrew.project.CryptoRanking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04500A7223A3E96D006340FF /* Build configuration list for PBXProject "CryptoRanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04500A8923A3E96E006340FF /* Debug */,
+				04500A8A23A3E96E006340FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04500A8B23A3E96E006340FF /* Build configuration list for PBXNativeTarget "CryptoRanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04500A8C23A3E96E006340FF /* Debug */,
+				04500A8D23A3E96E006340FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04500A6F23A3E96D006340FF /* Project object */;
+}
