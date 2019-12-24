@@ -3,20 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04232F6423AD1D07006AD2CB /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04232F6323AD1D07006AD2CB /* Coin.swift */; };
 		04500A7B23A3E96D006340FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7A23A3E96D006340FF /* AppDelegate.swift */; };
 		04500A7D23A3E96D006340FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7C23A3E96D006340FF /* SceneDelegate.swift */; };
 		04500A7F23A3E96D006340FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7E23A3E96D006340FF /* ViewController.swift */; };
 		04500A8223A3E96D006340FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04500A8023A3E96D006340FF /* Main.storyboard */; };
 		04500A8423A3E96E006340FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04500A8323A3E96E006340FF /* Assets.xcassets */; };
 		04500A8723A3E96E006340FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04500A8523A3E96E006340FF /* LaunchScreen.storyboard */; };
+		04E2E84A23B17186005216AF /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2E84923B17186005216AF /* CoinData.swift */; };
+		04E2E84C23B1ABDC005216AF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2E84B23B1ABDC005216AF /* Data.swift */; };
 		9C22951E41D99F890DB8EE39 /* Pods_CryptoRanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B60B5023767378CFB271CD0 /* Pods_CryptoRanking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04232F6323AD1D07006AD2CB /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		04500A7723A3E96D006340FF /* CryptoRanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoRanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04500A7A23A3E96D006340FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04500A7C23A3E96D006340FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		04500A8623A3E96E006340FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04500A8823A3E96E006340FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D09EBC4E2C50BC11EBCB9C /* Pods-CryptoRanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoRanking.release.xcconfig"; path = "Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking.release.xcconfig"; sourceTree = "<group>"; };
+		04E2E84923B17186005216AF /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		04E2E84B23B1ABDC005216AF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		3B60B5023767378CFB271CD0 /* Pods_CryptoRanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoRanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67CE5ED4ECE89AAE1DDCC60C /* Pods-CryptoRanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoRanking.debug.xcconfig"; path = "Target Support Files/Pods-CryptoRanking/Pods-CryptoRanking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +76,9 @@
 				04500A8323A3E96E006340FF /* Assets.xcassets */,
 				04500A8523A3E96E006340FF /* LaunchScreen.storyboard */,
 				04500A8823A3E96E006340FF /* Info.plist */,
+				04232F6323AD1D07006AD2CB /* Coin.swift */,
+				04E2E84923B17186005216AF /* CoinData.swift */,
+				04E2E84B23B1ABDC005216AF /* Data.swift */,
 			);
 			path = CryptoRanking;
 			sourceTree = "<group>";
@@ -88,7 +97,6 @@
 				67CE5ED4ECE89AAE1DDCC60C /* Pods-CryptoRanking.debug.xcconfig */,
 				04D09EBC4E2C50BC11EBCB9C /* Pods-CryptoRanking.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04500A7F23A3E96D006340FF /* ViewController.swift in Sources */,
+				04E2E84C23B1ABDC005216AF /* Data.swift in Sources */,
+				04E2E84A23B17186005216AF /* CoinData.swift in Sources */,
 				04500A7B23A3E96D006340FF /* AppDelegate.swift in Sources */,
+				04232F6423AD1D07006AD2CB /* Coin.swift in Sources */,
 				04500A7D23A3E96D006340FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -355,7 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86S9QXK86N;
+				DEVELOPMENT_TEAM = DWS4PP48C7;
 				INFOPLIST_FILE = CryptoRanking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86S9QXK86N;
+				DEVELOPMENT_TEAM = DWS4PP48C7;
 				INFOPLIST_FILE = CryptoRanking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
