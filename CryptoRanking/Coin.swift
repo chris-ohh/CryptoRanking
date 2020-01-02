@@ -10,14 +10,14 @@ import Foundation
 
 struct Coin {
   var name: String
-  var rank: String
+  var rank: Int
   var description: String?
   var symbol: String?
   var color: String?
   var websiteUrl: String?
   var price: String
   
-  init(name: String, rank: String, description: String?, symbol: String?, color: String?, websiteUrl: String?, price: String) {
+  init(name: String, rank: Int, description: String?, symbol: String?, color: String?, websiteUrl: String?, price: String) {
     self.name = name
     self.rank = rank
     self.description = description
@@ -42,7 +42,7 @@ extension Coin: Decodable {
   init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CoinCodingKeys.self)
     let name: String = try container.decode(String.self, forKey: .name)
-    let rank: String = try container.decode(String.self, forKey: .name)
+    let rank: Int = try container.decode(Int.self, forKey: .rank)
     let price: String = try container.decode(String.self, forKey: .price)
 
     if let description: String = try container.decode(String?.self, forKey: .description),
