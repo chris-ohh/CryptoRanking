@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400ECA523BDB6A300F92143 /* MultipleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400ECA423BDB6A300F92143 /* MultipleData.swift */; };
+		0400ECA723BDB6B400F92143 /* CoinsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400ECA623BDB6B400F92143 /* CoinsData.swift */; };
 		04232F6423AD1D07006AD2CB /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04232F6323AD1D07006AD2CB /* Coin.swift */; };
 		04500A7B23A3E96D006340FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7A23A3E96D006340FF /* AppDelegate.swift */; };
 		04500A7D23A3E96D006340FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04500A7C23A3E96D006340FF /* SceneDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0400ECA423BDB6A300F92143 /* MultipleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleData.swift; sourceTree = "<group>"; };
+		0400ECA623BDB6B400F92143 /* CoinsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsData.swift; sourceTree = "<group>"; };
 		04232F6323AD1D07006AD2CB /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		04500A7723A3E96D006340FF /* CryptoRanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoRanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04500A7A23A3E96D006340FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				04232F6323AD1D07006AD2CB /* Coin.swift */,
 				04E2E84923B17186005216AF /* CoinData.swift */,
 				04E2E84B23B1ABDC005216AF /* Data.swift */,
+				0400ECA423BDB6A300F92143 /* MultipleData.swift */,
+				0400ECA623BDB6B400F92143 /* CoinsData.swift */,
 			);
 			path = CryptoRanking;
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400ECA723BDB6B400F92143 /* CoinsData.swift in Sources */,
 				04500A7F23A3E96D006340FF /* ViewController.swift in Sources */,
+				0400ECA523BDB6A300F92143 /* MultipleData.swift in Sources */,
 				04E2E84C23B1ABDC005216AF /* Data.swift in Sources */,
 				04E2E84A23B17186005216AF /* CoinData.swift in Sources */,
 				04500A7B23A3E96D006340FF /* AppDelegate.swift in Sources */,
